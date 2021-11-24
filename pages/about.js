@@ -3,7 +3,7 @@ import Header from "../components/Header";
 const about = () => {
   return (
     <Header>
-      <h1>hello this ist he about page</h1>
+      <h1>This is the about page to be build</h1>
     </Header>
   );
 };
