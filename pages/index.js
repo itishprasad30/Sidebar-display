@@ -3,8 +3,6 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import Header from "../components/Header";
 import Sidebar from "../components/SideBar";
-import SideBar from "../components/SideBar";
-// import styles from '../styles/Home.module.css'
 import React from "react";
 import { useRecoilState } from "recoil";
 import { modalState } from "../atoms/modalAtom";
@@ -20,7 +18,7 @@ export default function Home() {
       </Head>
       <Header />
       {open ? (
-        <SideBar />
+        <Sidebar />
       ) : (
         <button
           className=" bg-green-500 rounded-r-lg p-3 text-white "
