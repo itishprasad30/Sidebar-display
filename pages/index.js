@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import Header from "../components/Header";
-import Sidebar from "../components/SideBar";
+import Sidebar from "../components/Sidebar";
 import React from "react";
 import { useRecoilState } from "recoil";
 import { modalState } from "../atoms/modalAtom";
